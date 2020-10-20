@@ -37,9 +37,9 @@ p{
     font-weight: bold;
     text-shadow: 3px 3px 3px black;
 }
-.btn{
+.btn{ 
     color: white;
-    background-color: orangered;
+    background-color: orangered; 
     padding: 10px 10px;
     margin-top: 50px;
 }
