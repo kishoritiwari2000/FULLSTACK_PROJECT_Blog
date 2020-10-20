@@ -342,4 +342,10 @@ p{
     font-weight: 600;
     color: white;
 }
+select{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+
 
