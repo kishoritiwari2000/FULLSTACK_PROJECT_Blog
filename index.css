@@ -8,13 +8,73 @@ ul li:hover{
     color: white;
 
 }
- .container-fluid {
+ .blog-1 {
     position: relative;
     left: 0;
     top: 0;
     width: 100%;
     height: 100vh;
-    animation: animate 12s ease-in-out infinite;
+    animation: animate-1 12s ease-in-out infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-2 {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate-2 12s ease-in-out infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-3{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate-3 12s ease-in-out infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-4 {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate-4 12s ease-in-out infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-5 {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate-5 12s ease-in-out infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-6 {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate-6 12s ease-in-out infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-7 {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate-7 12s ease-in-out infinite;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -54,7 +114,7 @@ p{
 }
 
 
-@keyframes animate{
+@keyframes animate-1{
     0%{
         /* background-image: url(bg-1.jpg); */
         background-color: red;
@@ -74,6 +134,138 @@ p{
     100%{
         /* background-image: url(bg-6.jpg); */
         background-color: purple;
+    }
+}
+@keyframes animate-2{
+    0%{
+        /* background-image: url(bg-1.jpg); */
+        background-color: grey;
+    }
+    25%{
+        /* background-image: url(bg-2.jpg); */
+        background-color: black;
+    }
+    50%{
+        /* background-image: url(bg-3.jpg); */
+        background-color: pink;
+    } 
+    75%{
+        /* background-image: url(bg-4.jpg); */
+        background-color: blue;
+    }
+    100%{
+        /* background-image: url(bg-6.jpg); */
+        background-color: orchid;
+    }
+}
+@keyframes animate-3{
+    0%{
+        /* background-image: url(bg-1.jpg); */
+        background-color: rgb(194, 13, 13);
+    }
+    25%{
+        /* background-image: url(bg-2.jpg); */
+        background-color: rgb(23, 194, 100);
+    }
+    50%{
+        /* background-image: url(bg-3.jpg); */
+        background-color: rgb(65, 5, 15);
+    } 
+    75%{
+        /* background-image: url(bg-4.jpg); */
+        background-color: rgb(18, 214, 34);
+    }
+    100%{
+        /* background-image: url(bg-6.jpg); */
+        background-color: rgb(27, 8, 27);
+    }
+}
+@keyframes animate-4{
+    0%{
+        /* background-image: url(bg-1.jpg); */
+        background-color: rgb(20, 193, 216);
+    }
+    25%{
+        /* background-image: url(bg-2.jpg); */
+        background-color: rgb(233, 101, 13);
+    }
+    50%{
+        /* background-image: url(bg-3.jpg); */
+        background-color: rgb(131, 11, 31);
+    } 
+    75%{
+        /* background-image: url(bg-4.jpg); */
+        background-color: blue;
+    }
+    100%{
+        /* background-image: url(bg-6.jpg); */
+        background-color: orchid;
+    }
+}
+@keyframes animate-5{
+    0%{
+        /* background-image: url(bg-1.jpg); */
+        background-color: rgb(12, 199, 37);
+    }
+    25%{
+        /* background-image: url(bg-2.jpg); */
+        background-color: rgb(231, 35, 35);
+    }
+    50%{
+        /* background-image: url(bg-3.jpg); */
+        background-color: rgb(57, 8, 173);
+    } 
+    75%{
+        /* background-image: url(bg-4.jpg); */
+        background-color: rgb(116, 15, 99);
+    }
+    100%{
+        /* background-image: url(bg-6.jpg); */
+        background-color: orchid;
+    }
+}
+@keyframes animate-6{
+    0%{
+        /* background-image: url(bg-1.jpg); */
+        background-color: red;
+    }
+    25%{
+        /* background-image: url(bg-2.jpg); */
+        background-color: yellow;
+    }
+    50%{
+        /* background-image: url(bg-3.jpg); */
+        background-color: orangered;
+    } 
+    75%{
+        /* background-image: url(bg-4.jpg); */
+        background-color: goldenrod;
+    }
+    100%{
+        /* background-image: url(bg-6.jpg); */
+        background-color: green;
+    }
+}
+@keyframes animate-7{
+    0%{
+        /* background-image: url(bg-1.jpg); */
+        background-color: grey;
+    }
+    25%{
+        /* background-image: url(bg-2.jpg); */
+        background-color: black;
+    }
+    50%{
+        /* background-image: url(bg-3.jpg); */
+        background-color: pink;
+    } 
+    75%{
+        /* background-image: url(bg-4.jpg); */
+        background-color: blue;
+    }
+    100%{
+        /* background-image: url(bg-6.jpg); */
+        background-color: orchid;
     }
 }
 /* //Footer CSS */
