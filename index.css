@@ -6,6 +6,7 @@ body{
 ul li:hover{
     background-color: grey;
     color: white;
+    /* padding-top: 0%; */
 
 }
  .blog-1 {
@@ -284,6 +285,14 @@ p{
     color: #fafafa;
     font-family: Merienda;
 
+}
+.link-area select {
+    background-color: black;
+    color: white;
+}
+.link-area select:hover {
+    background-color: grey;
+    color: white;
 }
 .link-area li{
     padding: 5px 5px 5px 0px;
