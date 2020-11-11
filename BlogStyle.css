@@ -84,7 +84,7 @@ body{
 .buttons button:hover{
     background: #cc0000;
 }
-.box .title{
+.center .title{
     position:absolute;
     font-family: sans-serif;
     user-select: none;
@@ -103,8 +103,13 @@ body{
     height:20px;
     width:200px;
 }
-.box .text{
-    position:absolute;
-    font-family: sans-serif;
-    user-select: none;
+.center .message{
+    width:750px;
+    height:300px;
+    border:2px solid black;
+    color: black;
+    font-size:18px;
+    outline-color: #f3ca20;
+    margin-left: auto;
+    margin-right: auto;
 }
