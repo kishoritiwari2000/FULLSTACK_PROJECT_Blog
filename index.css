@@ -108,8 +108,8 @@ body{
     transition: .25s;
 }
 .content .main-content .post .post-image{
-    widows: 40%;
-    height: 100%;
+    widows: 15%;
+    height: 80%;
     float: left;
 }
 .content .main-content .post .post-preview{
