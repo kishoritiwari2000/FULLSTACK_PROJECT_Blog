@@ -2,6 +2,10 @@ body{
     /* background-color: lightgray; */
     font-family: lato;
 }
+.logo img{
+    width: 150px;
+    height: 100px;
+}
 .details{
     margin: 20px 0;
     background-color: #fff;
@@ -38,7 +42,7 @@ body{
     content: "";
     width: 5px;
     height: 100%;
-    background-color: black;
+    background-color: #f3ca20;
     position: absolute;
     left: 0;
     top: 0;
@@ -108,8 +112,8 @@ body{
     transition: .25s;
 }
 .content .main-content .post .post-image{
-    widows: 40%;
-    height: 100%;
+    widows: 15%;
+    height: 80%;
     float: left;
 }
 .content .main-content .post .post-preview{
@@ -209,7 +213,7 @@ body{
 
 }
 .link-area select {
-    background-color: black;
+    background-color: #000000;
     color: white;
 }
 .link-area select:hover {
