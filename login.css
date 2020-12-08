@@ -5,6 +5,7 @@ body{
     font-family: sans-serif;
     background-image: url('Login-bg-img.jpg');
     background-size: cover;
+    background-color: #f3ca20;
 }
 
 .login-form{
